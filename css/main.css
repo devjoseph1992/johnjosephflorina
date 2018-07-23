@@ -1,0 +1,236 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* my code */
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", OpenSans, RobotoCondensed;
+    background-color: #313235;
+}
+header {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60px;
+}
+header .navbar-brand a {
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 20px 20px;
+    margin-right: 75px;
+    font-size: 17px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:rgb(35, 165, 122);
+}
+.menu{
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px;
+    float: left;
+}
+
+.navbar-link li a{
+    display: none;
+    float: left;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #111;
+}
+.navbar a:hover{
+    background-color: white;
+    color: #000
+}
+.side-nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    transition: 0.3s;
+    color: #111;
+}
+.side-nav a:hover {
+    background-color: white;
+    color:rgb(35, 165, 122);
+}
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* main content */
+
+#main {
+    transition: margin-left 0.5s;
+    overflow: hidden;
+    
+}
+.main-banner{
+    background-image:  url('https://pathlightdesign.uk/wp-content/uploads/2015/07/web-design-development-process-illustration-2.png');    
+    height: auto;
+    width: 100%;    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display:table;
+
+}
+.main-content h1 {
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 900px;
+    line-height: 70px;
+    text-align: center;
+    color:rgb(35, 165, 122);
+    text-shadow: 2px 2px  #111;
+    display: table-cell;
+    vertical-align: middle;
+}
+.main-content h2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100px;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+    color:rgb(35, 165, 122);
+    text-shadow: 2px 2px  #111;
+}
+.content {
+    margin: 2px 0;
+    background-color: aqua;
+    padding: 10px 10px;
+}
+.card {
+    padding: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    background-color: white;
+}
+.card img {
+    border-radius: 5px 5px 0 0;
+}
+.container-card {
+    padding: 2px 16px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <title>John Joseph Florina Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+                <img src="img/if_Menu_green_1891031.svg" alt="menu" class="menu" onclick="openSideMenu()"> 
+            <nav class="navbar-brand">
+                
+                <a href="index.html">John Joseph Florina</a>
+                
+            </nav>
+            <nav class="navbar-link">
+                <ul>
+                    <li><a href="#">Home</a></li>                    
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+        </nav>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+            <a href="#"><img src="img/if_Streamline-18_185038.svg" width="20px" height="20px"> Home</a>
+            <a href="#"><img src="img/if_30.User_290120.svg" width="25px" height="25px" > Profile</a>
+            <a href="#"><img src="img/if_opened_folder_172515.svg" width="20px" height="20px"> Project</a>
+            <a href="#"><img src="img/if_basics-11_296822.svg" width="30px" height="30px"> About Me</a>
+            <a href="#"><img src="img/if_phone_1540177.svg" width="20px" height="20px"> Contact Me</a>            
+        </div>
+    </header>
+    <main id="main" class="main-content">
+        <section class="main-banner">
+            <div>
+                <h1>I am a Junior Web <br>Developer</h1>
+                <h2>With specialty in front-end development and back-end development</h2>
+            </div>
+        </section>
+        <section class="content">
+            <div class="card">
+                <img src="http://via.placeholder.com/350x150" alt="sample" style="width: 100%">
+                <div class="container-card">
+                    <h3><b>Resume</b></h3>
+                    <p>John Joseph Florina</p>
+                </div>
+            </div>
+            <div class="card">
+                    <img src="http://via.placeholder.com/350x150" alt="sample" style="width: 100%">
+                    <div class="container-card">
+                        <h3><b>Resume</b></h3>
+                        <p>John Joseph Florina</p>
+                    </div>
+                </div>
+            <div class="card">
+                 <img src="http://via.placeholder.com/350x150" alt="sample" style="width: 100%">
+                    <div class="container-card">
+                         <h3><b>Resume</b></h3>
+                         <p>John Joseph Florina</p>
+                    </div>
+            </div>
+            <div class="card">
+                <img src="http://via.placeholder.com/350x150" alt="sample" style="width: 100%">
+                     <div class="container-card">
+                        <h3><b>Resume</b></h3>
+                        <p>John Joseph Florina</p>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+
+    <script>
+        function openSideMenu(){
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+        function closeSideMenu(){
+            document.getElementById('side-menu').style.width = '0px';
+            document.getElementById('main').style.marginLeft = '0px';
+        }
+    </script>
+</body>
+</html>
